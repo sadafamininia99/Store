@@ -1,0 +1,15 @@
+.Navbar {
+  @apply bg-gray-800 hidden lg:flex p-4;
+}
+
+.Links {
+  @apply flex gap-4 items-center text-white text-lg;
+}
+
+.Logo {
+  @apply w-28;
+}
+
+.Link {
+  @apply cursor-pointer p-2 px-3 transition-all hover:bg-gray-700 rounded-md
+}

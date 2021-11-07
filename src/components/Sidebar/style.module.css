@@ -1,0 +1,14 @@
+.TopBar {
+  @apply p-5 bg-gray-200 lg:hidden;
+}
+
+.Sidebar {
+  transform: translateX(-100%);
+  transition: transform 0.1s ease-in-out;
+  @apply w-[300px] lg:hidden bg-gray-500;
+}
+
+.Sidebar.Open {
+  transform: translateX(0);
+  @apply transform translate-x-0;
+}
