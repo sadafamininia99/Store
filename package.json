@@ -2,8 +2,16 @@
   "name": "store",
   "version": "0.1.0",
   "private": true,
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "dependencies": {
     "@craco/craco": "^6.4.0",
+    "@headlessui/react": "^1.4.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
